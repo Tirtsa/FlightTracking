@@ -1,0 +1,8 @@
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\obj\Debug\DP.csproj.CoreCompileInputs.cache
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\bin\Debug\DP.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\bin\Debug\DP.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\obj\Debug\DP.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\obj\Debug\DP.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\tirts\source\repos\FlightTrackingNew\DP\obj\Debug\DP.csproj.CopyComplete

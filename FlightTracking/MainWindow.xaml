@@ -1,0 +1,36 @@
+﻿<Window x:Class="FlightTracking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlightTracking" xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1400">
+    <Window.Resources>
+        <Style TargetType="m:Pushpin" x:Key="pushpinTemplate">
+            <Setter Property="Template" x:Name="pushpinTemplate">
+                <Setter.Value>
+                    <ControlTemplate x:Name="pushpinControlTemplate">
+                        <!--<Image Source="Images\airplane.png"  />-->
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="8mfO2tXQwC9SsietmmVx~-TfhtpOy_Lyw8MrRYCCvLw~Ahwe66m1agNiuAbUg_zSfS1zWotIynZKHpdkzZeHF3bb8HiLvgfNh9h7CnZiYhHd"          
+                   Center="32.000454,34.870743" ZoomLevel="5.0" AnimationLevel="None" Margin="250,75,9.6,10.4">
+            <m:MapItemsControl x:Name="pushpins" ItemsSource="{Binding}" Margin="0,0,-0.4,0">
+                <m:MapItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <m:Pushpin Location="{Binding Location}" MouseDoubleClick="Pushpin_MouseDoubleClick_1"/>
+                        <!--Style="{StaticResource pushpinTemplate}"-->
+                    </DataTemplate>
+                </m:MapItemsControl.ItemTemplate>
+            </m:MapItemsControl>
+        </m:Map>
+        <local:AirportUC x:Name="MyAirportUC" HorizontalAlignment="Left" Height="425" Margin="10,75,0,0" VerticalAlignment="Top" Width="235"
+                         DataContext="{Binding SelectedFlight}"
+                         />
+    </Grid>
+</Window>

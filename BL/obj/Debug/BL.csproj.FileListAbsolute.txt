@@ -1,0 +1,15 @@
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\BL.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\BL.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\DAL.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\DP.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\DAL.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\DP.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\obj\Debug\BL.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\BL\obj\Debug\BL.pdb

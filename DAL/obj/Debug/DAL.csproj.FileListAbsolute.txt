@@ -1,0 +1,13 @@
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\DAL.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\DAL.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\DP.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\DP.pdb
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\obj\Debug\DAL.dll
+C:\Users\tirts\source\repos\FlightTrackingNew\DAL\obj\Debug\DAL.pdb
