@@ -16,6 +16,7 @@ namespace BL
 
         List<FlightSummarize> getAllFlights();
         Flight GetFlightByKey(string key);
+        string getHoliday();
 
     }
 }

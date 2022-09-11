@@ -13,6 +13,8 @@ namespace BL
     {
         static IDAL dal = new Dal();
 
+        #region Flights
+        
         public List<FlightSummarize> getAllFlights()
         {
             return dal.getAllFlightsSummarize();
@@ -81,7 +83,16 @@ namespace BL
             return flightVisibleInfo;
         }
 
-        //getweatherofairport
-        //getweatherbylocation(getairportlocation(airport)))
+        #endregion
+
+        #region weather
+        #endregion
+
+        #region Calendar
+        public string getHoliday()
+        {
+            return dal.getEvent(DateTime.Today, DateTime.Today.AddDays(7));
+        }
+        #endregion
     }
 }

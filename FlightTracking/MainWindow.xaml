@@ -18,7 +18,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <m:Map x:Name="myMap" CredentialsProvider="8mfO2tXQwC9SsietmmVx~-TfhtpOy_Lyw8MrRYCCvLw~Ahwe66m1agNiuAbUg_zSfS1zWotIynZKHpdkzZeHF3bb8HiLvgfNh9h7CnZiYhHd"          
+        <m:Map Mode="road" x:Name="myMap" CredentialsProvider="8mfO2tXQwC9SsietmmVx~-TfhtpOy_Lyw8MrRYCCvLw~Ahwe66m1agNiuAbUg_zSfS1zWotIynZKHpdkzZeHF3bb8HiLvgfNh9h7CnZiYhHd"          
                    Center="32.000454,34.870743" ZoomLevel="5.0" AnimationLevel="None" Margin="250,75,9.6,10.4">
             <m:MapItemsControl x:Name="pushpins" ItemsSource="{Binding}" Margin="0,0,-0.4,0">
                 <m:MapItemsControl.ItemTemplate>
@@ -32,5 +32,6 @@
         <local:AirportUC x:Name="MyAirportUC" HorizontalAlignment="Left" Height="425" Margin="10,75,0,0" VerticalAlignment="Top" Width="235"
                          DataContext="{Binding SelectedFlight}"
                          />
+        <TextBlock x:Name="isHoliday" HorizontalAlignment="Left" Margin="1066,0,0,0" TextWrapping="Wrap" Text="{Binding holiday}" VerticalAlignment="Top" Width="157" Height="70"/>
     </Grid>
 </Window>

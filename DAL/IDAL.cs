@@ -12,6 +12,7 @@ namespace DAL
         List<FlightSummarize> getAllFlightsSummarize();
         Flight GetFlightByKey(string key);
 
+        string getEvent(DateTime start, DateTime end);
         //Weather getWeather(Location location)();
         //HebEvent getHebevent(Date date)();
     }
