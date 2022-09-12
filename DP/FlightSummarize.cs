@@ -19,5 +19,10 @@ namespace DP
         public string FullFlightCode { get; set; }
         public string AirlineICAO { get; set; }
         public Location Location { get { return new Location(Lat, Long); } }
+
+        public override string ToString()
+        {
+            return Id;
+        }
     }
 }

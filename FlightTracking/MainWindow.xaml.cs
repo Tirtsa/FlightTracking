@@ -30,21 +30,13 @@ namespace FlightTracking
         FlightVisibleInfo SelectedFlight = new FlightVisibleInfo();
         DispatcherTimer timer = new DispatcherTimer();
 
+        public ViewModel.FlightsViewModel currentVM;
 
         public MainWindow()
         {
             InitializeComponent();
-            timer.Interval = new TimeSpan(0, 0, 2);
-            timer.Tick += new EventHandler(Tick);
-            Tick(this, null);
-            timer.Start();
-        }
-
-        private void Tick(Object sender, EventArgs e)
-        {
-            allFlights = bl.getAllFlights();
-            this.DataContext = allFlights;
-            pushpins.ItemsSource = allFlights;
+            currentVM = new ViewModel.FlightsViewModel(this);
+            this.DataContext = currentVM;
         }
 
         private void addPolyline(string key)
@@ -74,6 +66,11 @@ namespace FlightTracking
             SelectedFlight = bl.getVisibleFromFlight(CompleteSelectedFlight);
             MyAirportUC.DataContext = SelectedFlight;
             addPolyline(SelectedFlight.Id);
+        }
+
+        private void Pushpin_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+
         }
     }
 }

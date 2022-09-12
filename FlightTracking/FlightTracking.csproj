@@ -60,6 +60,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\DisplayFlight.cs" />
+    <Compile Include="Converters\SumFlightConverter.cs" />
+    <Compile Include="ViewModel\FlightsViewModel.cs" />
     <Page Include="AirportUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +126,9 @@
       <Project>{24e2c202-cc20-4582-9d64-2b2fd75a2926}</Project>
       <Name>DP</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

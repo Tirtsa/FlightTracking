@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "..\BL\BL.csproj", "{8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{07E2DF59-E4AA-4401-82D3-A3CD6CBF9A53}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\FlightTracking\Images\airplane.png = ..\..\FlightTracking\Images\airplane.png
+		..\Images\airplane.png = ..\Images\airplane.png
 	EndProjectSection
 EndProject
 Global
